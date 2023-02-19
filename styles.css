@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+  body {
+    min-height: 100vh;
+  }
+  
+  
+  
+  header.down {
+    background: #1483D5;
+    transition: all 0.5s ease;
+    
+  }
+  
+  header.down a{
+    color:antiquewhite!important;
+    transition: all 0.5s ease;
+  }
+  
+  .logo{
+    width: 10%!important;
+    transition: all 0.5s ease;}
+  
+  
+  
+  
+  /*texto de carousel centrado*/
+  .carousel-caption {
+    top: 42%;
+  }
+  
+  
+  /*text btn gallery*/
+  
+  .nav-tabs .nav-link {
+    color: black;
+  }
+  
+  button.nav-link:hover {
+    transform: translateY(-5px);
+    transition: all 0.5s ease;
+    border-bottom:none;
+    color: goldenrod;
+  }
+  
+  
+  /*Imagenes galería*/
+  .d-flex>figure>a>img {
+    padding: 4px;
+    width: 450px !important;
+    border-radius: 20px !important;
+  }
+  
+  
+  /*fondo fijo sección nosotros*/
+  
+  .background-nosotros {
+    background-image: url(media/background/vuelo-1.JPG);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  
+  .section-nuestrosPilotos {
+    background-image: url(media/background/vuelo-2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  
+  /*logo wp fijo*/
+  .wp {
+    bottom: 2rem;
+    position: fixed;
+    z-index: 3;
+    right: 2rem;
+    filter: drop-shadow(0.8rem 0.8rem 0.8rem #0008);
+  }
+  
+  .wp:hover {
+    scale: 1.1;
+    transition: all 0.2s ease;
+  }
+  
+  /*positionElementsul-responsive*/
+  ul.navbar-nav {
+    margin-left: auto;
+  }
+  
+  /*backgroundcolorHeader-responsive*/
+  
+  @media screen and (max-width: 767px) {
+    header{position:relative!important;
+      background: #1483D5;
+  ;};}
+  /*positionHeader-responsive*/
+  @media screen and (max-width: 767px) {
+    header.down{position:fixed!important;
+    };}
+    
+  /*logoTraslate-responsive*/
+    @media screen and (max-width: 767px) {
+      .logo{ transform: translate(-100vw) rotate(360deg) ;
+  
+        ;transition:  1s linear;
+        width: 10%!important;
+        
+      ;
+        
+      };}
+  
+  /*titleStart-responsive*/
+      @media screen and (max-width: 767px) {
+        .titleStart {
+          display: inline-block;
+          transform: translateX(-5vw);
+          transition: all 0.5s;
+        }
+      }
+      
