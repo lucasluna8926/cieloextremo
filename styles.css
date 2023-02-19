@@ -1,13 +1,19 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-   
-  body {
-    min-height: 100vh;
-  }
+*{
+  border-radius: 5px;
+}
   
+  body {
+    max-width: 100%;
+    padding: 5px;
+   }
+  
+
+
+  /*ojo con esto y las imágenes*/
+figure img{width: 100%;
+  
+  }
+ 
   
   
   header.down {
